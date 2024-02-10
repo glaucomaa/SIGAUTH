@@ -16,18 +16,24 @@
       
 ## build
 ### Linux
-> mkdir build
-> cd build
-> cmake ..
-> make
+```console
+mkdir build
+cd build
+cmake ..
+make
+```
 ### Windows
-> mkdir build
-> cd build
-> cmake .. 
-> msbuild sig_auth.sln /p:Configuration=Release
+```console
+mkdir build
+cd build
+cmake .. 
+msbuild sig_auth.sln /p:Configuration=Release
+```
 or 
-> mkdir build
-> cd build
-> cmake -G "Visual Studio 16 2019" ..
-> msbuild sig_auth.sln /p:Configuration=Release
+```console
+mkdir build
+cd build
+cmake -G "Visual Studio 16 2019" ..
+msbuild sig_auth.sln /p:Configuration=Release
+```
 
